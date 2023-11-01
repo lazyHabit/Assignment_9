@@ -16,6 +16,7 @@ def train_file_list_to_json(english_file_list: List[str], german_file_list: List
             file = file.replace('/', '\\/')
             file = file.replace('"', '\\"')
         return file
+    aaa
 
     # Template for json file
     template_start = '{\"English\":\"'
